@@ -100,10 +100,10 @@
         <h2>Using Lists as Queues</h2>
         It is also possible to use a list as a queue, where the first element added is the first element retrieved (“first-in, first-out”); however, lists are not efficient for this purpose. While appends and pops from the end of list are fast, doing inserts or pops from the beginning of a list is slow (because all of the other elements have to be shifted by one).<br><br>
         methods:<br>
-        append() :- This function is used to insert the value in its argument to the right end of deque.<br>
-        appendleft() :- This function is used to insert the value in its argument to the left end of deque.<br>
-        pop() :- This function is used to delete an argument from the right end of deque.<br>
-        popleft() :- This function is used to delete an argument from the left end of deque.<br><br>
+        <strong>append()</strong> :- This function is used to insert the value in its argument to the right end of deque.<br>
+        <strong>appendleft()</strong> :- This function is used to insert the value in its argument to the left end of deque.<br>
+        <strong>pop()</strong> :- This function is used to delete an argument from the right end of deque.<br>
+        <strong>popleft()</strong> :- This function is used to delete an argument from the left end of deque.<br><br>
 
         example:<br>
         from collections import deque<br>
@@ -123,7 +123,48 @@
 
         de.popleft()<br>
         The deque after deleting from left is :<br>
-        deque([1, 2, 3])<br><br>
+        deque([1, 2, 3])<br>
+    </div>
+
+    <div>
+        <h1>List Comprehensions</h1>
+
+        List comprehensions provide a concise way to create lists.<br><br>
+
+        <strong>#1</strong><br>
+        code without List Comprehension:<br>
+        squares = []<br>
+        for x in range(10): OR for x in range(1, 10):<br> 
+            squares.append(x**2)<br><br>
+
+        output: squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]<br><br>
+
+        or<br><br>
+
+        shorthand code with List Comprehension:<br>
+        squares = [x**2 for x in range(1, 10)]<br><br>
+
+        <strong>#2</strong><br>
+        names = ["Janson", "Harold", "Jefferson", "Jetson", "Smith", "Kenrick"]<br><br>
+        
+        code without List Comprehension:<br>
+        jnames = []<br>
+        for eachname in names:<br>
+            if eachname.startswith("J"):<br>
+                jnames.append(eachname)<br>
+
+        output: ["Janson", "Jefferson", "Jetson"]<br><br>
+
+        shorthand code with List Comprehension:<br>
+        jnames = [eachname for eachname in names if eachname.startswith("J")]<br><br>
+
+        <strong>#3</strong><br>
+        nameagelist = [("Jan", 22), ("Jeff", 25), ("Jet", 22), ("Joana", 22), ("Janelle", 24)]<br><br>
+
+        nameage22 = [name for (name, age) in nameagelist if age < 23]<br>
+
+        output: ['Jan', 'Jet', 'Joana']<br>
+
 
     </div>
 </body>
