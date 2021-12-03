@@ -1,0 +1,43 @@
+Pick.A.Roo Apps
+
+CUSTOMER APP
+
+*INBOX
+- no messages has view template
+- it also displays message view list
+- count messages and display on top
+- if you click on messages it will display view(with close button)
+
+*STORES
+- delivery location works okay(search tab, manual plotting and confirmation button)
+- favorite feature working fine(for both stores and items), it has views, updating of quantity and of total price(in both list and views), OOS feature + appending of notes and updating of cart and sharing link
+
+*CART
+- links are working fine(store, item & OOS notes)
+- quantity button with auto total price updating, additional notes and delete button & selection of items for checkout seems fine
+- empty list template available
+- form for delivery loc & profile update, editing/updating are working
+*issue identified
+- small UI problem in viewing the last voucher
+
+*FAVORITES - redirect and list seems fine
+
+*VOUCHERS - everything seems fine including views of voucher, instructions and buttons
+
+*SEARCH BAR - seems fine with history
+
+*FAVORITE/GROCERY/FOOD/SHOPS - side scrolling and ordering seems fine
+
+*DICTIONARY - redirect to stores seem fine as well
+
+*CHAT NOW - seems fine in terms of sticking to the right
+
+*SUGGESTIONS & VIEW ALL/NEW GROCERY/STORES NEAR YOU - seems okay, redirecting to stores to item to cart. Stores near you are all in sync with the set loc
+
+*ACCOUNT - everything else seems fine except
+- my membership, empty?
+- contact us > live chat > request error?
+
+
+CREW APP
+MERCHANT APP

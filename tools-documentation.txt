@@ -1,0 +1,42 @@
+HOW TO DOWNLOAD GIT?
+Link: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+WHERE TO DOWNLOAD PYTHON?
+Link: https://www.python.org/downloads/
+
+HOW TO INSTALL DJANGO?
+Video Link: https://www.youtube.com/watch?v=e_o1nacGQiw
+
+STEP 1: Download Brew first
+Link: https://brew.sh/
+To check brew version: brew -v
+
+STEP 2: Install Python
+Code: brew install python3
+To check python 3 version: python3
+
+STEP 3: Python 3 comes with pip 
+To check pip version: pip3
+Source: https://stackoverflow.com/questions/40868345/checking-whether-pip-is-installed
+
+STEP 4.a: Create a folder then enter that folder
+STEP 4.b: Setup Virtual Environment (per project)
+To create a virtual environment: python3 -m venv venv_blogApp (python3 -m venv NAME)
+
+STEP 5: Activate Virtual Environment(go to parent dir)
+To activate virtual environment: source venv_blogApp/bin/activate (source NAME/bin/activate)
+To deactivate: deactivate
+
+STEP 6: Install Django using pip
+Code: pip3 install django
+
+STEP 7: Running the server
+Link: https://stackoverflow.com/questions/25664654/issues-in-initial-setup-for-django-project
+
+Create a project file first: django-admin startproject projectFolder_blogApp
+Enter the project folder->
+To access the server: python manage.py runserver 8000
+
+HOW TO INSTALL POSTGRESQL?
+Video Link: https://www.youtube.com/watch?v=EZAa0LSxPPU
+Tutorial Link: https://www.postgresql.org/docs/online-resources/

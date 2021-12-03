@@ -1,0 +1,4 @@
+id,first_name,last_name,gender,email,date_of_birth,country_of_birth,car_id,id,make,model,price
+1,Jan,Siy,Male,jan@email.com,1994-10-05,Philippines,1,1,Honda,City,87665.38
+2,Jeff,Smith,Male,jeff@email.com,1993-09-16,USA,2,2,Toyota,Corolla,17622.69
+3,Nikka,Goot,Female,nikka@email.com,1995-02-15,Japan,,,,,
