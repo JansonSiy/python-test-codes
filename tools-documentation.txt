@@ -44,6 +44,7 @@ Tutorial Link: https://www.postgresql.org/docs/online-resources/
 HOW TO INSTALL REDIS?
 Link: https://redis.io/
 Video Link: https://www.youtube.com/watch?v=lgWjGkdrExA
+Manual Installation: https://www.youtube.com/watch?v=vPcFJvvJgVA
 
 STEP 1: Update brew first before anything else
 code: brew update

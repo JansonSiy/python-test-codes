@@ -1,0 +1,115 @@
+HOW TO INSTALL REDIS?
+Link: https://redis.io/
+Video Link: https://www.youtube.com/watch?v=lgWjGkdrExA
+Manual Installation: https://www.youtube.com/watch?v=vPcFJvvJgVA
+
+STEP 1: Update brew first before anything else
+code: brew update
+
+STEP 2: Use brew to install redis
+code: brew install redis
+
+STEP 3: Start the service
+code: brew services start redis
+code: redis-cli ping (double check if it's really running, should return pong)
+
+To start the cli: redis-cli
+To quit the cli: quit
+To stop the service: brew services stop redis
+To uninstall redis: brew uninstall redis
+
+
+Youtube Link: https://www.youtube.com/watch?v=HNDtcXVo5ow
+
+What is Redis?
+• Redis is an acronym of Remote Dictionary Server
+• Redis is a Key-Value Store/Key-Data Structure Store
+• Redis is a store/server that stores data as key-value pairs. example: name = Jan
+• Redis is a No-SQL db, it does not have tables/rows/columns/functions/procedures
+• It also does not use any statements like select, insert, update, delete
+
+What data structures does Redis use?
+• Primary Data Structures: String, Lists, Sets, Sorted Sets, Hashes
+• Extra Data Structures: bitmaps, hyperloglogs, geospatial indexes
+
+Interaction with data is command based (https://redis.io/commands)
+
+Redis keeps the data in the memory, in the cache and does not write to the disk that makes it super fast
+
+Why use redis?
+• Performance - It's superfast
+• Simple and Flexible - no defining any table, rows and columns and no inserts, selects, update & delete, read and write is very straightforward
+• Durable - can be used as a caching system or full fledge DB, has option to write in the disk (configurable)
+• Language Support - https://redis.io/clients
+• Compatibility - can be used along with your existing database or used as a second database
+• Redis has a master-slave replication feature
+
+How to write data in Redis?
+line: SET "name" "Jan"
+
+How to read data from Redis?
+line: GET "name" (= Jan)
+
+note: value will always get back to you as a string
+
+How to delete data from Redis?
+line: DEL name
+
+How to know if key and value is in the database?
+line: EXISTS name
+
+How to get all the keys?
+line: KEYS *
+
+How to delete everything?
+line: flushall
+
+How to clear terminal?
+line: clear
+
+How to set an expiration timer?
+line: expire name 10 (name will expire in 10 secs)
+line: ttl name (to know how long of a time is left) 
+line(shorthand): setex name 10 jan
+
+How to create a list?
+line: lpush friends jeff (l in lplush means left)
+
+How to append a value to the left of a list?
+line: lpush friends jet
+
+How to append a value to the right of a list?
+line: rpush friends jason
+
+How to get the values of the list?
+line: lrange friends 0 -1 (starting from index 0 to -1(end))
+
+How to remove a value from the left of a list?
+line: lpop friends
+
+How to remove a value from the right of a list?
+line: rpop friends
+
+How to create a set(unique values)?
+line: sadd hobbies "lifting"
+
+How to get values from a set?
+line: smembers hobbies 
+
+How to remove a value from a set?
+line: srem hobbies "lifting"
+
+How to create a hash?
+line: hset person name Jan
+
+How to get the hash value?
+line: hget person name
+
+How to get all hash data?
+line: hgetall person
+
+How to delete a hash data?
+line: hdel person name
+
+How to check if value exists in a hash?
+line: hexists person name
