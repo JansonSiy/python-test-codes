@@ -40,3 +40,20 @@ To access the server: python manage.py runserver 8000
 HOW TO INSTALL POSTGRESQL?
 Video Link: https://www.youtube.com/watch?v=EZAa0LSxPPU
 Tutorial Link: https://www.postgresql.org/docs/online-resources/
+
+HOW TO INSTALL REDIS?
+Link: https://redis.io/
+Video Link: https://www.youtube.com/watch?v=lgWjGkdrExA
+
+STEP 1: Update brew first before anything else
+code: brew update
+
+STEP 2: Use brew to install redis
+code: brew install redis
+
+STEP 3: Start the service
+code: brew services start redis
+code: redis-cli ping (double check if it's really running, should return pong)
+
+To stop the service: brew services stop redis
+To uninstall redis: brew uninstall redis
