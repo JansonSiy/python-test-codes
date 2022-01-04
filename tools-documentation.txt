@@ -1,3 +1,15 @@
+HOW TO HANDLE AUTHENTICATION ERROR?
+Example:
+jansonharoldsiy@Jansons-Air eCommerceApp-python-django % git push
+Username for 'https://github.com': JansonSiy
+Password for 'https://JansonSiy@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/JansonSiy/eCommerceApp-python-django.git/'
+
+Video Link: https://www.youtube.com/watch?v=ytSoabxSQ6E
+Stackoverflow Link: https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
+
 HOW TO DOWNLOAD GIT?
 Link: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
@@ -37,6 +49,11 @@ Create a project file first: django-admin startproject projectFolder_blogApp
 Enter the project folder->
 To access the server: python manage.py runserver 8000
 
+STEP 8: creating an app
+Go inside the projectFolder with the manage.py file and paste this in the terminal. This will create an app
+code: python manage.py startapp name
+
+
 HOW TO INSTALL POSTGRESQL?
 Video Link: https://www.youtube.com/watch?v=EZAa0LSxPPU
 Tutorial Link: https://www.postgresql.org/docs/online-resources/
@@ -58,3 +75,14 @@ code: redis-cli ping (double check if it's really running, should return pong)
 
 To stop the service: brew services stop redis
 To uninstall redis: brew uninstall redis
+
+HOW TO USE SSH?
+STEP 1: Generate SSH Key
+code (in terminal): ssh-keygen -t rsa
+
+STEP 2: Copy code
+code: pbcopy < ~/.ssh/id_rsa.pub
+
+STEP 3: Go to settings-SSH and GPG keys-New SSH key-Add SSH key(paste in the key field)
+
+STEP 4: git clone ssh-link

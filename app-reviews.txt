@@ -3,41 +3,80 @@ Pick.A.Roo Apps
 CUSTOMER APP
 
 *INBOX
-- no messages has view template
-- it also displays message view list
-- count messages and display on top
-- if you click on messages it will display view(with close button)
+• no messages has view template
+• it also displays message view list
+• count messages and display on top
+• if you click on messages it will display view(with close button)
 
 *STORES
-- delivery location works okay(search tab, manual plotting and confirmation button)
-- favorite feature working fine(for both stores and items), it has views, updating of quantity and of total price(in both list and views), OOS feature + appending of notes and updating of cart and sharing link
+• delivery location works okay(search tab, manual plotting and confirmation button)
+• favorite feature working fine(for both stores and items), it has views, updating of quantity and of total price(in both list and views), OOS feature + appending of notes and updating of cart and sharing link
 
 *CART
-- links are working fine(store, item & OOS notes)
-- quantity button with auto total price updating, additional notes and delete button & selection of items for checkout seems fine
-- empty list template available
-- form for delivery loc & profile update, editing/updating are working
+• links are working fine(store, item & OOS notes)
+• quantity button with auto total price updating, additional notes and delete button & selection of items for checkout seems fine
+• empty list template available
+• form for delivery loc & profile update, editing/updating are working
 *issue identified
-- small UI problem in viewing the last voucher
+• small UI problem in viewing the last voucher
 
-*FAVORITES - redirect and list seems fine
+*FAVORITES
+• redirect and list seems fine
 
-*VOUCHERS - everything seems fine including views of voucher, instructions and buttons
+*VOUCHERS
+• everything seems fine including views of voucher, instructions and buttons
 
-*SEARCH BAR - seems fine with history
+*SEARCH BAR
+•seems fine with history
 
-*FAVORITE/GROCERY/FOOD/SHOPS - side scrolling and ordering seems fine
+*FAVORITE/GROCERY/FOOD/SHOPS
+• side scrolling and ordering seems fine
 
-*DICTIONARY - redirect to stores seem fine as well
+*DICTIONARY
+• redirect to stores seem fine as well
 
-*CHAT NOW - seems fine in terms of sticking to the right
+*CHAT NOW
+• seems fine in terms of sticking to the right
 
-*SUGGESTIONS & VIEW ALL/NEW GROCERY/STORES NEAR YOU - seems okay, redirecting to stores to item to cart. Stores near you are all in sync with the set loc
+*SUGGESTIONS & VIEW ALL/NEW GROCERY/STORES NEAR YOU
+• seems okay, redirecting to stores to item to cart. Stores near you are all in sync with the set loc
 
 *ACCOUNT - everything else seems fine except
-- my membership, empty?
-- contact us > live chat > request error?
+• my membership, empty?
+• contact us > live chat > request error?
+
+MERCHANT APP (3 tabs, new, open, closed) 
+• merchants can setup opening and closing and preparation time
+• merchants can accept and reject order then specify reason (on radio)
+
+CREW APP (3 tabs, ongoing, available, completed) 
+• has a form regarding covid
+• after handover complete -> once the driver has arrived -> select how order is delivered -> customer button
+
+OPS DASHBOARD
+• Coordinators manually assign to riders (transaction row will move from "For Action" to "Active Orders")
+• FYI - Shoppers are automatically assigned
+
+Order Taking Process
+• Customer place order via CUSTOMER APP
+• Merchants to accept order via MERCHANT APP
+• Order will reflect in OPS DASHBAORD 
+• Coordinator will assign a rider/shopper/shriders and will reflect in rider's CREW APP
+• If a Shopper is needed, you need to finish the checklist -> take photos of the receipt -> handover to rider
+• CREW APP and CUSTOMER APP will syncronize
 
 
-CREW APP
-MERCHANT APP
+MERCHANT OPS ONBOARDING
+• Before a brand gets endorsed to Product Ops, they need to give all the onboarding requirements like store name, store address, pin location, loc, store phone
+• Concerns go through AM then to Product Ops
+• 24-48 hours SLA
+• 50% photos of products is a must, BD is accountable, only items with photos will be published, for best sellers, photos is a must
+
+TRELLO
+PRODUCT LIST TEMPLATE
+
+UPDATES@PICKAROO
+
+MERCHANTS BEFORE THEY APPEAR IN BACKOFFICE
+
+DARK LAUNCH - internal lang makakakita, employees lang makakakita, mag may dark mode access
