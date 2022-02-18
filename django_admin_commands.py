@@ -50,6 +50,7 @@ class Command(BaseCommand):
         for each in options['arguments']:
             print('Value:', each)
 
+# OUTPUT
 # python manage.py refresh_daily_ratings jan jeff jet
 # Value: jan
 # Value: jeff
