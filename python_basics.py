@@ -1,97 +1,97 @@
-#1 https://www.learnpython.org/en/Variables_and_Types
-#my answer
-    #mystring = 'hello'
-    #myfloat = float(10.0)
-    #myint = 20
+# 1 https://www.learnpython.org/en/Variables_and_Types
+# my answer
+    mystring = 'hello'
+    myfloat = float(10.0)
+    myint = 20
 
-#2 https://www.learnpython.org/en/Lists
-#my answer
-    #second_name = names[1]
-    #numbers.append(1)
-    #numbers.append(2)
-    #numbers.append(3)
-    #strings.append('hello')
-    #strings.append('world')
+# 2 https://www.learnpython.org/en/Lists
+# my answer
+    second_name = names[1]
+    numbers.append(1)
+    numbers.append(2)
+    numbers.append(3)
+    strings.append('hello')
+    strings.append('world')
 
-#3 https://www.learnpython.org/en/Basic_Operators
-#my answer
-    #x_list = [x] * 10
-    #y_list = [y] * 10
-    #big_list = x_list + y_list
+# 3 https://www.learnpython.org/en/Basic_Operators
+# my answer
+    x_list = [x] * 10
+    y_list = [y] * 10
+    big_list = x_list + y_list
 
-#4 https://www.learnpython.org/en/String_Formatting
-#my answer
-    #print(format_string, "%s %s. Your current balance is $%f." % (data[0], data[1], data[2]))
+# 4 https://www.learnpython.org/en/String_Formatting
+# my answer
+    print(format_string, "%s %s. Your current balance is $%f." % (data[0], data[1], data[2]))
 
-#5 https://www.learnpython.org/en/Basic_String_Operations
+# 5 https://www.learnpython.org/en/Basic_String_Operations
 
-#6 https://www.learnpython.org/en/Conditions
-#my answer
-    #number = 16
-    #second_number = 0
-    #first_array = [1, 0, 0]
-    #second_array = [1, 2]
+# 6 https://www.learnpython.org/en/Conditions
+# my answer
+    number = 16
+    second_number = 0
+    first_array = [1, 0, 0]
+    second_array = [1, 2]
 
-#7 https://www.learnpython.org/en/Loops
-#my answer
-    #for number in numbers:
-        #if number == 237:
-            #break
-        #if number % 2 == 0:
-            #continue
-        #print(number)
+# 7 https://www.learnpython.org/en/Loops
+# my answer
+    for number in numbers:
+        if number == 237:
+            break
+        if number % 2 == 0:
+            continue
+        print(number)
 
-#8 https://www.learnpython.org/en/Functions
-#my answer
-    #def list_benefits():
-        #return "More organized code", "More readable code", "Easier code reuse", "Allowing programmers to share and connect code together"
+# 8 https://www.learnpython.org/en/Functions
+# my answer
+    def list_benefits():
+        return "More organized code", "More readable code", "Easier code reuse", "Allowing programmers to share and connect code together"
 
-    #def build_sentence(benefit):
-        #return "%s is a benefit of functions!"%(benefit)
+    def build_sentence(benefit):
+        return "%s is a benefit of functions!"%(benefit)
 
-#9 https://www.learnpython.org/en/Classes_and_Objects
-#my answer
+# 9 https://www.learnpython.org/en/Classes_and_Objects
+# my answer
 # define the Vehicle class
-#class Vehicle:
-    #def __init__(self, name, kind, color, value):
-        #self.name = name
-        #self.kind = kind
-        #self.color = color
-        #self.value = value
+class Vehicle:
+    def __init__(self, name, kind, color, value):
+        self.name = name
+        self.kind = kind
+        self.color = color
+        self.value = value
         
-    #def description(self):
-        #desc_str = "%s is a %s %s worth $%.2f." % (self.name, self.kind, self.color, self.value)
-        #return desc_str
+    def description(self):
+        desc_str = "%s is a %s %s worth $%.2f." % (self.name, self.kind, self.color, self.value)
+        return desc_str
         
 # your code goes here
-#car1 = Vehicle('Fer', 'car', 'red', 60000.00)
-#car2 = Vehicle('Jump', 'car', 'blue', 10000.00)
+car1 = Vehicle('Fer', 'car', 'red', 60000.00)
+car2 = Vehicle('Jump', 'car', 'blue', 10000.00)
 
 # test code
-#print(car1.description())
-#print(car2.description())
+print(car1.description())
+print(car2.description())
 
 
 
 
 
-#VARIABLES & TYPES
+# VARIABLES & TYPES
 
-#NUMBERS have 2 types, integer(whole number) and floating point(decimals)
-#note: two ways to declare a floating point number
+# NUMBERS have 2 types, integer(whole number) and floating point(decimals)
+# note: two ways to declare a floating point number
 myfloat = 7.0
 print(myfloat)
 
 ourfloat = float(7)
 print(ourfloat)
 
-#STRINGS can be defined either with a single quote or a double quotes
-#note: using double quotes makes it easy to include apostrophes (whereas single quotes would terminate the string)
-#error: mystring = 'don't worry about apostrophes'
+# STRINGS can be defined either with a single quote or a double quotes
+# note: using double quotes makes it easy to include apostrophes (whereas single quotes would terminate the string)
+# error: mystring = 'don't worry about apostrophes'
 mystring = "don't worry about apostrophes"
 print(mystring)
 
-#note: simple operators can be executed on numbers and strings
+# note: simple operators can be executed on numbers and strings
 one = 1
 two = 2
 three = one + two
@@ -102,8 +102,8 @@ world = "world"
 helloworld = hello + " " + world
 print(helloworld)
 
-#note: assignments can be done on more than one variable "simultaneously" on the same line
-#another note: mixing operators between numbers and strings is not supported
+# note: assignments can be done on more than one variable "simultaneously" on the same line
+# another note: mixing operators between numbers and strings is not supported
 a, b = 'jan', 'jeff'
 print("this is a = ", a)
 print("this is b = ", b)
@@ -113,14 +113,14 @@ print("this is a & b = ", a, b)
 
 
 
-#STRING FORMATTING
-#note: the "%" operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d".
+# STRING FORMATTING
+# note: the "%" operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d".
 
-#%s - string (or any object with a string representation, like numbers)
-#%d - integers
-#%f - floating point numbers
-#%.<number of digits>f - floating point numbers with a fixed amount of digits to the right of the dot.
-#%x/%X - integers in hex representation (lowercase/uppercase)
+# %s - string (or any object with a string representation, like numbers)
+# %d - integers
+# %f - floating point numbers
+# %.<number of digits>f - floating point numbers with a fixed amount of digits to the right of the dot.
+# %x/%X - integers in hex representation (lowercase/uppercase)
 
 name = "Jan"
 number = 5
@@ -135,15 +135,15 @@ print("%s is %d years old." % (name, age))
 
 
 
-#CONDITIONS
-#note: python uses boolean logic to evaluate conditions
+# CONDITIONS
+# note: python uses boolean logic to evaluate conditions
 x = 2
 print("x in inded 2", x == 2)
 print("x is not 3", x == 3)
 print("x is less than 3", x < 3)
 
-#BOOLEAN OPERATORS
-#note The "and" and "or" boolean operators allow building complex boolean expressions
+# BOOLEAN OPERATORS
+# note The "and" and "or" boolean operators allow building complex boolean expressions
 name = "Jan"
 age = 27
 if name == "John" and age == 27:
@@ -152,12 +152,12 @@ if name == "John" and age == 27:
 if name == "Jan" or name == "John":
     print("Your name is either Jan or John.")
 
-#THE "in" OPERATOR
+# THE "in" OPERATOR
 name = "Jan"
 if name in ["Jan", "Jeff"]:
     print("Your name is either Jan or Jeff.")
 
-#another if statement
+# another if statement
 first_statement = False
 second_statement = False
 
@@ -168,14 +168,14 @@ elif second_statement is True:
 else:
     print('both statements are false')
 
-#THE "is" OPERATOR
+# THE "is" OPERATOR
 x = [1,2,3]
 y = [1,2,3]
 
 print("the value of x is equals to y:", x == y) 
 print("x is not y:", x is y)
 
-#THE "not" OPERATOR
+# THE "not" OPERATOR
 print("convert False into True using not operator", not False)
 print((not False) == (False))
 
@@ -183,8 +183,8 @@ print((not False) == (False))
 
 
 
-#LOOPS
-#THE "for" LOOP
+# LOOPS
+# THE "for" LOOP
 primes = [2, 3, 5, 7]
 
 for prime in primes:
@@ -192,46 +192,46 @@ for prime in primes:
 
 for x in range(5):
     print(x)
-#prints 0 1 2 3 4
+# prints 0 1 2 3 4
 
 for x in range(3, 6):
     print(x)
-#prints 3 4 5
+# prints 3 4 5
 
 for x in range(3, 8, 2):
     print(x)
-#prints 3 5 7
+# prints 3 5 7
 
-#"while" LOOP
+# "while" LOOP
 count = 0
 while count < 5:
     print(count)
     count += 1
-#prints 0,1,2,3,4
+# prints 0,1,2,3,4
 
-#"break" and "continue" statements
+# "break" and "continue" statements
 count = 0
 while True:
     print(count)
     count += 1
     if count >= 5:
         break
-#prints 0 1 2 3 4
+# prints 0 1 2 3 4
 
 for x in range(10):
     if x % 2 == 0:
         continue
     print(x)
-#prints out only odd numbers - 1,3,5,7,9
+# prints out only odd numbers - 1,3,5,7,9
 
-#"else" clause
+# "else" clause
 count=0
 while(count<5):
     print(count)
     count +=1
 else:
     print("count value reached %d" %(count))
-#prints 0 1 2 3 4 count value reached 5
+# prints 0 1 2 3 4 count value reached 5
 
 for i in range(1, 10):
     if(i%5==0):
@@ -239,13 +239,13 @@ for i in range(1, 10):
     print(i)
 else:
     print("this is not printed because for loop is terminated because of break but not due to fail in condition")
-#prints 1 2 3 4
+# prints 1 2 3 4
 
 
 
 
 
-#FUNCTIONS
+# FUNCTIONS
 def my_function():
     print("Hello From My Function!")
 
@@ -267,17 +267,17 @@ print(x)
 
 
 
-#CLASSES AND OBJECTS
+# CLASSES AND OBJECTS
 
-#sampleOne
+# sampleOne
 class User:
     pass
 
-#we call this an instance or an object
+# we call this an instance or an object
 user1 = User()
 user2 = User()
-#first_name and last_ name are what we call fields, they store data specific to user1
-#tradionally in Python, field name are sperated by _ if it's two or more and are lowercased
+# first_name and last_ name are what we call fields, they store data specific to user1
+# tradionally in Python, field name are sperated by _ if it's two or more and are lowercased
 user1.first_name = "Jan"
 user1.last_name = "Siy"
 user1.age = 27
@@ -294,9 +294,9 @@ print(user2.first_name)
 print(user2.last_name)
 print(user2.age)
 
-#sampleTwo (init method)
-#a function inside a class is called method
-#init is "initialization or in other laguages called constructor
+# sampleTwo (init method)
+# a function inside a class is called method
+# init is "initialization or in other laguages called constructor
 
 class Player:
     def_init_(self, full_name, birthday):
