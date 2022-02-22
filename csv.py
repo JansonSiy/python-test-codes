@@ -17,5 +17,5 @@ def exportProducts(request):
 
 	# for the last part, this tells the browser what to do with the response, in this case treat it as an attachment
     response['Content-Disposition'] = 'attachment; filename="products.csv"'
-
-	return response
+    
+    return response
