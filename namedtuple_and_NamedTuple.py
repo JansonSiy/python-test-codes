@@ -16,11 +16,10 @@ from typing import NamedTuple
 
 class Person(NamedTuple):
     first_name: str
-		last_name: str
+	last_name: str
     age: int
 
 # equivalent to
-
 # Person = collections.namedtuple('Person', ['name', 'age'])
 
 personOne = Person('Jan', 'Siy', 27)
