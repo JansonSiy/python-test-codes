@@ -31,7 +31,8 @@ from django.shortcuts import render
 from .models import Order
 
 def index(request):
-    # this is inefficient, it takes too many querys, query from the order model & query from the customer model
+    # this is inefficient, it takes too many querys,
+    # query from each order in the order model & query from each customer in the customer model
     orders = Order.objects.all()
 
     for order in orders:
