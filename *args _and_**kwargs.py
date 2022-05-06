@@ -15,7 +15,7 @@ myFunc('argumentOne', 'argumentTwo')
 def displayArgs(*args):
 	print(args)
 
-displayArgs('argsOne', 'argsTwo','argsThree')
+displayArgs('argsOne', 'argsTwo', 'argsThree')
 
 # expected output:
 # ('argsOne', 'argsTwo', 'argsThree')
