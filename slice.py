@@ -1,0 +1,8 @@
+onehundredfiftyone_characters = "abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghija"
+
+len(onehundredfiftyone_characters)
+# 151
+
+limit_to_onehundredfifty = onehundredfiftyone_characters[0:150]
+len(limit_to_onehundredfifty)
+# 150
