@@ -1,3 +1,5 @@
+# reference: https://www.w3schools.com/python/gloss_python_string_slice.asp
+
 onehundredfiftyone_characters = "abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghija"
 
 len(onehundredfiftyone_characters)
