@@ -7,8 +7,7 @@ class Employee:
         full_name = '{} {}'.format(self.first_name, self.last_name)
         return full_name
 
-    
 name = Employee('Janson', 'Siy')
 
 name.full_name
-'Janson Siy'
+# 'Janson Siy'
