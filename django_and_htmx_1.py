@@ -9,7 +9,7 @@
 
 # TEMPLATE
 # hx-post: sending a post request
-# hx-trigger: will trigger the action every time user will type any character in the form
+# hx-trigger="keyup": will trigger the action every time user will type any character in the form
 # hx-target: replace the element with whatever is return from the backend
 # hx-swap: swap the entire element of the hx-target
 <head>
